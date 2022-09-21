@@ -21,3 +21,7 @@
 .step {
     transition: 0.4s border-color linear;
 }
+
+button {
+    transition: 0.2s background-color ease, 0.2s border-color ease;
+}

@@ -1,7 +1,23 @@
 .progress-bar {
     top: 58px;
-    width: 249px;
+    border: 0;
     z-index: -1;
+    width: 249px;
     margin-left: 35px;
     position: absolute;
+}
+
+.fill-progress {
+    height: 4px;
+    background-color: #4ade80;
+    transition: 0.3s width linear;
+}
+
+.step-1 {
+    border-color: #06b6d4;
+    transition: 0.3s border-color linear;
+}
+
+.step {
+    transition: 0.4s border-color linear;
 }
